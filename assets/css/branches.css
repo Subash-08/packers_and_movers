@@ -1,0 +1,156 @@
+/* Base styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.entry-header {
+
+  color: #201dba;
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.entry-title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.entry-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Branch styles */
+.one_half {
+  width: 48%;
+  float: left;
+  margin-bottom: 2rem;
+}
+
+.last_column {
+  float: right;
+}
+
+.contactinfo-title {
+  color: #1a5f7a;
+  border-bottom: 2px solid #1a5f7a;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contactdetail {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.contactdetail:hover {
+  transform: translateY(-5px);
+}
+
+.contactdetail p {
+  margin: 0.5rem 0;
+}
+
+.contactdetail b {
+  color: #1a5f7a;
+}
+
+iframe {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Clearfix */
+.entry-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .one_half, .one_half.last_column {
+    width: 100%;
+    float: none;
+  }
+
+  .entry-title {
+    font-size: 2rem;
+  }
+
+  .contactinfo-title {
+    font-size: 1.2rem;
+  }
+
+  iframe {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .entry-header {
+    padding: 1rem 0;
+  }
+
+  .entry-title {
+    font-size: 1.5rem;
+  }
+
+  .contactinfo-title {
+    font-size: 1rem;
+  }
+
+  iframe {
+    height: 200px;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.one_half {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Print styles */
+@media print {
+  .entry-header {
+    background-color: #fff;
+    color: #000;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  .contactdetail {
+    box-shadow: none;
+    border: 1px solid #000;
+  }
+}

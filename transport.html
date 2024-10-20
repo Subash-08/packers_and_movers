@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>About - Logis Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/contact.css" rel="stylesheet">
+  <link href="assets/css/header_and_footer.css" rel="stylesheet">
+  <!-- internal css -->
+
+  <style>
+
+    /* transport */
+    
+    .hed{
+        margin-top: 5rem;
+        /* max-height: 200px; */
+    }
+    .frd .track_ve img{
+        margin-left: 3rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec .track_cont{
+    margin-top: 2rem;
+    }
+    .sec .track_cont h1,p{
+        text-align: center;
+    }
+    .sec .track_cont p{
+        padding-top: 1rem;
+    }
+    /* -------*/
+    .hed1{
+           margin-top: 5rem;
+           background-color: #f0c9f5;
+    }
+    .frd1 .track_ve img{
+        margin-left: 3rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec1 .track_cont{
+    margin-top: 5rem;
+    }
+    .sec1 .track_cont h1,p{
+        text-align: center;
+    }
+    .sec1 .track_cont p{
+        padding-top: 1rem;
+    } 
+    /* --------- */
+    
+    .hed2{
+        margin-top: 5rem;
+    }
+    .frd2 .track_ve img{
+        margin-left: 3rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec2 .track_cont{
+    margin-top: 2rem;
+    }
+    .sec2 .track_cont h1,p{
+        text-align: center;
+    }
+    .sec2 .track_cont p{
+        padding-top: 1rem;
+    }
+    /* --------- */
+    .hed3{
+        margin-top: 5rem;
+        background-color: rgb(252, 216, 150);
+        }
+    .frd3 .track_ve img{
+        margin-left: 4rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* clip-path: polygon(50% 0,0 100%,100% 100%); */
+    }
+    .sec3 .track_cont{
+    margin-top: 2rem;
+    position: relative;
+    }
+    .sec3 .track_cont h1,p{
+        text-align: center;
+        
+    }
+    .sec3 .track_cont p{
+        padding-top: 1rem;
+        font-weight: 800px;
+    }
+    /* -------- */
+    .track_card{
+        margin-top: 10rem;
+        width: 100%;
+        background-color: #acc0c4;
+    }
+    .track_card .card img{
+        width: 80px;
+        display: flex;
+       margin-left: 6rem;
+       padding: 10px;
+    }
+    .card-body h1{
+     text-align: center;
+    }
+    .card{
+        margin-left: 4px;
+        margin-top: 4px;
+        margin-right: 4px;
+    }
+    
+    
+    /* media queries */
+    @media screen and (min-width: 321px) and (max-width: 374px){
+        .frd .track_ve img{
+            margin-left: 6rem;
+        }
+        .frd1 .track_ve img{
+            margin-left: 6rem;
+        }
+        .frd2 .track_ve img{
+            margin-left: 6rem;
+        }
+        .frd3 .track_ve img{
+            margin-left: 6rem;
+        }
+        .track_card .card img{
+            margin-left: 10rem;
+        }
+    }
+    @media screen and (min-width: 375px) and (max-width: 424px){
+        .frd .track_ve img{
+            margin-left: 6rem;
+        }
+        .frd1 .track_ve img{
+            margin-left: 6rem;
+        }
+        .frd2 .track_ve img{
+            margin-left: 6rem;
+        }
+        .frd3 .track_ve img{
+            margin-left: 6rem;
+        }
+        .track_card .card img{
+            margin-left: 8rem;
+        }
+    }
+    @media screen and (min-width: 425px) and (max-width: 767px){
+      .frd .track_ve img{
+            margin-left: 4rem;
+            width: 70%;
+        }
+        .frd1 .track_ve img{
+            margin-left: 4rem;
+            width: 70%;
+            margin-top: 3rem;
+        }
+        .frd2 .track_ve img{
+            margin-left: 4rem;
+            margin-top: 3rem;
+            width: 70%;
+        }
+        .frd3 .track_ve img{
+            margin-left: 4rem;
+            width: 70%;
+        }
+        .track_card .card img{
+            margin-left: 10rem;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1023px){
+        
+      
+      .frd .track_ve img:hover {
+         transform: translateX(170px);
+         transition: 4s;   
+        }
+        .frd1 .track_ve img:hover {
+            transform: translatex(170px);
+            transition: 4s;   
+        }
+        .frd2 .track_ve img:hover {
+            transform: translateX(180px);
+            transition: 4s;   
+        }
+        .frd3 .track_ve img:hover {
+            transform: translateX(170px);
+            transition: 4s;   
+        }
+        .track_card .card img{
+            margin-left: 20rem;
+        }
+        .hed1{
+            background-color: #a998ac;
+        }
+        .hed3{
+            background-color: #ebae5fd0;
+        }
+    
+       
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1365px){
+        .frd .track_ve img{
+            margin-left: 6rem;
+            width: 85%;
+        }
+        .frd1 .track_ve img{
+            margin-left: 5rem;
+            width: 85%;
+            margin-top: 3rem;
+        }
+        .frd2 .track_ve img{
+            margin-left: 6rem;
+            margin-top: 3rem;
+            width: 85%;
+        }
+        .card{
+            height: 250px;
+        }
+        .track_card .card img{
+            width: 80px;
+            margin-left: 6rem;
+        }
+        .card-body h1{
+            text-align: center;
+            font-size: 24px;
+           }
+    }
+    @media screen and (min-width: 1366px) and (max-width: 1440px){
+        .hed{
+            margin-top: 3rem;
+            width: 100%;
+            height: 40vh;
+        }
+        .frd .track_ve img{
+            margin-left: 3rem;
+            width: 90%;
+            height: 300px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .sec .track_cont{
+        margin-top: 3rem;
+        }
+        .sec .track_cont h1{
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .sec .track_cont p{
+            padding-top: 1rem;
+            font-size: 20px;
+            font-weight: 900px;
+            font-style:initial;
+        }
+        .hed1{
+            margin-top: 6rem;
+            width: 100%;
+            height: 60vh;
+        }
+        .frd1 .track_ve img{
+            margin-left: 3rem;
+            margin-top: 5rem;
+            width: 90%;
+            height: 300px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .sec1 .track_cont{
+        margin-top: 5rem;
+        }
+        .sec1 .track_cont h1{
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .sec1 .track_cont p{
+            padding-top: 1rem;
+            font-size: 20px;
+            font-weight: 900px;
+            font-style:initial;
+        }
+        .hed2{
+            margin-top: 7rem;
+            width: 100%;
+            height: 40vh;
+        }
+        .frd2 .track_ve img{
+            margin-left: 3rem;
+            width: 90%;
+            height: 300px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .sec2 .track_cont{
+        margin-top: 2rem;
+        }
+        .sec2 .track_cont h1{
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .sec2 .track_cont p{
+            padding-top: 1rem;
+            font-size: 20px;
+            font-weight: 900px;
+            font-style:initial;
+        }
+        .hed3{
+            margin-top: 6rem;
+            width: 100%;
+            height: 60vh;
+        }
+        .frd3 .track_ve img{
+            margin-left: 3rem;
+            width: 80%;
+            height: 350px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .sec3 .track_cont{
+        margin-top: 6rem;
+        }
+        .sec3 .track_cont h1{
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .sec3 .track_cont p{
+            padding-top: 1rem;
+            font-size: 20px;
+            font-weight: 900px;
+            font-style:initial;
+        }
+        .card{
+            height: 350px;
+        }
+        .track_card .card img{
+            width: 80px;
+            margin-left: 8rem;
+        }
+        .card-body h1{
+            text-align: center;
+            font-size: 34px;
+        }
+        .card-body p{
+            font-size: 20px;
+            font-weight: 800;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+    
+    </style>
+</head>
+
+<body class="about-page">
+
+  
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="#" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Logis</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+           <li class="dropdown"><a href=""><span>Servics</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="packing.html">Packing</a></li>
+              <li><a href="shifting.html">Shifting</a></li>
+              <li><a href="transport.html">Transport</a></li>
+              <li><a href="where.html">Warehouse</a></li>
+            </ul>
+          </li>
+          <li><a href="branches.html">Branches</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
+      <div class="container position-relative">
+        <h1>Transport</h1>
+        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Transport</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+<!--  -->
+<section class="transport">
+    <div class="container">
+      <div class="row hed">
+        <div class="col-lg-6 frd">
+          <div class="track_ve">
+             <img src="assets/img/track_veri.png" width="200" height="200"data-aos="fade-up" data-aos-duration="1000">    
+          </div>
+        </div>
+        <div class="col-lg-6 sec">
+          <div class="track_cont">
+            <h1 data-aos="fade-up" data-aos-duration="1200">Your Trustworthy Partner for Lorry Transport Service</h1>
+            <p data-aos="zoom-in-right" data-aos-duration="1500">Fed up with wasting time searching for the right lorry? ....simplifies your lorry transport journey. Easily locate a nearby lorry for your goods through our user-friendly platform, ensuring a smooth experience from start to finish.</p>
+          </div>
+        </div>   
+     </div>
+          <!-- ---------------- -->
+          <div class="row hed1">
+            <div class="col-lg-6 sec1">
+              <div class="track_cont">
+                <h1 data-aos="zoom-in-right" data-aos-duration="1200">A Wide Range of Lorry Options to Suit Your Needs</h1>
+                <p data-aos="zoom-in-right" data-aos-duration="1500">FR8 has you covered, whether you need a lorry for local delivery or a big one for long-distance travel. In order to meet all of your specific requirements, we provide a broad fleet of trucks that are outfitted with a range of capacities and amenities.</p>
+              </div>
+           </div>
+           <div class="col-lg-6 frd1">
+            <div class="track_ve">
+               <img src="assets/img/track_str.png" width="200" height="200"data-aos="fade-right" data-aos-duration="1000">    
+            </div>
+          </div>
+          </div>
+    <!-- -------------- -->
+    <div class="row hed2">
+      <div class="col-lg-6 frd2">
+        <div class="track_ve">
+           <img src="assets/img/track_tim.png" width="200" height="200" data-aos="fade-right" data-aos-duration="1000">    
+        </div>
+      </div>
+      <div class="col-lg-6 sec2">
+        <div class="track_cont">
+          <h1 data-aos="zoom-in-right" data-aos-duration="1200">
+            Every time, quick and dependable lorry service</h1>
+          <p data-aos="zoom-in-right" data-aos-duration="1500">We are aware of how crucial punctuality and dependability are to the logistics sector. You can be sure that your items will arrive at their destination on time when you reserve a lorry with FR8.</p>
+        </div>
+     </div>
+    </div>
+<!-- ------------- -->
+<div class="row hed3">
+  <div class="col-lg-6 sec3">
+    <div class="track_cont">
+      <h1 data-aos="zoom-in-right" data-aos-duration="1200">
+        Ratings and feedback</h1>
+      <p data-aos="zoom-in-down" data-aos-duration="1500">At FR8, we highly value feedback from our esteemed consumers. We sincerely appreciate your comments and insights as they play a vital role in our commitment to providing exceptional service. Your involvement in our journey towards excellence.</p>
+    </div>
+ </div>
+  <div class="col-lg-6 frd3">
+    <div class="track_ve">
+       <img src="assets/img/client_star.png" width="200" height="200" data-aos="fade-right" data-aos-duration="1000">    
+    </div>
+  </div>
+</div>
+    </div>
+<!-- ------- -->
+<div class="container">
+<div class="track_card">
+  <div class="row">
+    <div class="col-lg-4">
+  <div class="card" data-aos="flip-left"  data-aos-duration="1800">
+    <img src="assets/img/rupes.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1>Best Truck Rates</h1>
+      <p class="card-text">Transparent open truck rates. Get Truck Rates now</p>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4">
+  <div class="card" data-aos="flip-left"  data-aos-duration="1500">
+    <img src="assets/img/location.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1>Standardized Quality</h1>
+      <p class="card-text">Verified open trucks & lorry with proof of delivery within 10 days</p>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4">
+  <div class="card" data-aos="flip-left"  data-aos-duration="1200">
+    <img src="assets/img/protection.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1>Real Time Tracking</h1>
+      <p class="card-text">Real time truck tracking to deliver your goods on time</p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</section>
+  </main>
+<!--  -->
+ 
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Logis</span>
+          </a>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Why Choose Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Packing</a></li>
+            <li><a href="#">Shifting</a></li>
+            <li><a href="#">Transport</a></li>
+            <li><a href="#">Werehouse</a></li>
+            <li><a href="#">Client Service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>A108 Adam Street</p>
+          <p>New York, NY 535022</p>
+          <p>United States</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+          <p><strong>Email:</strong> <span>info@example.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Logis</strong> <span>All Rights Reserved</span></p>
+      </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

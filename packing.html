@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>About - Logis Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/contact.css" rel="stylesheet">
+  <link href="assets/css/header_and_footer.css" rel="stylesheet">
+  <!-- internal css -->
+
+  <style>
+    
+/* satisfiedclient */
+
+.satis_pic img{
+    width: 90%;
+    margin-top: 4rem;
+    padding-left: 1em;
+    height: 400px;
+    background-size: cover;
+    box-shadow: 75px 45px 5px -45px #9E6726;
+}
+.experiance{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 80px;
+    /* justify-content: space-around; */
+    background-color:#9E6726 ;
+    margin-left: 7rem;
+    margin-top: -5rem;
+    position: relative;
+}
+.exp h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-left: 3rem;
+   margin-top: 1rem;
+   line-height: 15px;
+}
+.exp h1 span{
+    font-size: 12px;
+   
+}
+
+.video_icon i{
+ margin-left: -20px;
+ border: 1px solid gray;
+ border-radius: 100px;
+ padding: 10px ;
+padding-right: 20px;
+align-items: center;
+    background-color: white;
+    
+}
+
+/* welcome */
+.welcome{
+    margin-top: 4rem;
+    padding: 10px;
+  width: 100%;
+}
+.welcome h6{
+    color: #9E6726;
+    text-align: center;
+    color: #eeeeee54;
+    padding-top: 30px;
+    font-family: 'Coiny', cursive;
+    text-align: center;
+    font-size: 30px;
+    -webkit-animation: bounce .4s ease infinite alternate;
+}
+
+@-webkit-keyframes bounce {
+0% {
+    text-shadow:
+                0 5px 0 #ccccccbb,
+                0 2px 3px rgba(0, 0, 0, 1);  
+}
+100% {
+  transform:translateY(-20px);
+ 
+}
+}
+.welcome h1{
+    font-size: 30px;
+    text-align: center;
+}
+.welcome p{
+   width: 100%;
+  
+}
+#wel_col ul li{
+    list-style: none;
+    line-height:30px ;
+}
+#wel_col ul li i{
+    color: #9E6726;
+}
+/* loading */
+/* .change_image{
+    background-image:  url(image/pack2.jpeg);
+  }
+  
+  .change_image::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url(image/pack4.jpeg);
+  
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  
+  .change_image:hover::before {
+    opacity: 0;
+  } */
+/* packing */
+.transport{
+  margin-top: 0;
+}
+.hed{
+    margin-top: 1rem;
+}
+.frd1 .track_ve img{
+    margin-left: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.sec1 .track_cont{
+margin-top: 2rem;
+}
+.sec1 .track_cont h1{
+    text-align: center;
+    color: rgb(72, 96, 233);
+}
+.sec1 .track_cont p{
+    padding-top: 1rem;
+    text-align: start;
+}
+/* loading */
+.frd .track_ve img{
+    margin-left: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.sec .track_cont{
+margin-top: 2rem;
+}
+.sec .track_cont h1{
+    text-align: center;
+    color: rgb(72, 96, 233);
+}
+.sec .track_cont p{
+    padding-top: 1rem;
+    text-align: start;
+}
+/* testimonials */
+#client{
+    margin-top: 1rem;
+}
+.satisfieds{
+    width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+  }
+.satisfieds h5{
+    color: #9E6726;
+  }
+#mike{
+    border-radius: 50%;
+    margin-left: 30%;
+}
+#carousel #mike{
+    /* margin: 0; */
+    width: 100px;
+    margin-left: 7rem;
+}
+#carousel h3{
+    font-size: 18px;
+    margin-bottom: 1rem;
+   
+}
+#carousel h3,h6,p{
+    text-align: center;
+}
+/* media queri */
+@media screen and (min-width: 321px) and (max-width: 424px){
+    .frd .track_ve img{
+        width: 320px;
+        border-radius: 5px;
+    }
+    .frd1 .track_ve img{
+        width: 320px;
+        border-radius: 5px;
+    }
+    .experiance{
+        width: 250px;
+    }
+    #carousel #mike{
+        /* margin: 0; */
+        margin-left: 9rem;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .frd .track_ve img{
+        width: 400px;
+        margin-left: 0px;
+        border-radius: 5px;
+    }
+    .frd1 .track_ve img{
+        width: 400px;
+        margin-left: 0px;
+        border-radius: 5px;
+    }
+    .experiance{
+        width: 295px;
+    }
+    #carousel #mike{
+        /* margin: 0; */
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .transport{
+        background-color: #d4cbcb;
+    }
+   
+    .frd .track_ve img{
+        width: 650px;
+        height: 300px;
+        margin-left: 1rem;
+        border-radius: 5px;
+    }
+    .frd1 .track_ve img{
+        width: 650px;
+        height: 300px;
+        margin-left: 1rem;
+        border-radius: 5px;
+    }
+    .experiance{
+        display: flex;
+        /* border: 2px solid red; */
+        width: 290px;
+        height: 80px;
+        /* justify-content: space-around; */
+        background-color:#072a3883 ;
+        margin-left: 25rem;
+        margin-top: -5rem;
+        position: relative;
+    }
+    #carousel #mike{
+        /* margin: 0; */
+        margin-left: 21rem;
+    }
+    
+.satis_pic img{
+    box-shadow: 75px 45px 5px -45px #0c32475d;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1365px){
+
+    .transport{
+      margin-top: 2rem;
+        background-color: #e2d7d7;
+    }
+    .hed{
+      margin: 0;
+    }
+    .satisfied{
+        display: flex;
+        }
+    .satis_pic{
+        width: 40%;
+    }
+    .satis_pic img{
+        margin-left: 0;
+        padding-left: 0;
+        width: 90%;
+        height: 600px;
+        box-shadow: 75px 45px 5px -45px #355f6988;
+    }
+    .experiance{
+      
+        width: 250px;
+        height: 80px;
+        background-color:#3b6d7471 ;
+       
+      
+    }
+    .exp h1{
+        font-size: 28px;
+        font-weight: 700;
+        color: white;
+        margin-left: 3rem;
+       margin-top: 1rem;
+       line-height: 15px;
+    }
+    .exp h1 span{
+        font-size: 12px;
+       
+    }
+    .welcome{
+      width: 60%;
+      
+    }
+    .welcome h1{
+        font-size: 34px;
+        text-align: center;
+    }
+    .welcome p{
+       width: 100%;
+       margin-top: 2rem;
+       font-size: 24px;
+       font-weight: 300;
+       text-align: start;
+      
+    }
+    #wel_col ul li{
+        list-style: none;
+        line-height:50px ;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    #wel_col ul li i{
+        color: #9E6726;
+    }
+    .spcific{
+        margin-top: 2rem;
+        margin-left: -3rem;
+    }
+    .frd .track_ve img{
+        margin-left: 1rem;
+        margin-top: 4rem;
+        width: 85%;
+        border-radius: 5px;
+    }
+    .frd1 .track_ve img{
+        margin-left: 5rem;
+        width: 85%;
+        margin-top: 4rem;
+        border-radius: 5px;
+    }
+    .satisfieds img{
+        width: 100px;
+    }
+    #carousel #mike{
+      
+        margin-left: 29rem;
+    }
+}
+@media screen and (min-width: 1366px) and (max-width: 1439px){
+
+    .transport{
+        background-color: #e2e1e1b4;
+    }
+    
+    .satisfied{
+        display: flex;
+        }
+    .satis_pic{
+        width: 40%;
+    }
+    .satis_pic img{
+        margin-left: 0;
+        padding-left: 0;
+        width: 90%;
+        height: 600px;
+        box-shadow: 75px 45px 5px -45px #355f6988;
+    }
+    .experiance{
+      
+        width: 250px;
+        height: 80px;
+        background-color:#3b6d7471 ;
+       
+      
+    }
+    .exp h1{
+        font-size: 28px;
+        font-weight: 700;
+        color: white;
+        margin-left: 3rem;
+       margin-top: 1rem;
+       line-height: 15px;
+    }
+    .exp h1 span{
+        font-size: 12px;
+       
+    }
+    .welcome{
+      width: 60%;
+      
+    }
+    .welcome h1{
+        font-size: 34px;
+        text-align: center;
+    }
+    .welcome p{
+       width: 100%;
+       margin-top: 2rem;
+       font-size: 24px;
+       font-weight: 300;
+       text-align: start;
+      
+    }
+    #wel_col ul li{
+        list-style: none;
+        line-height:50px ;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    #wel_col ul li i{
+        color: #9E6726;
+    }
+    .spcific{
+        margin-top: 2rem;
+        margin-left: -3rem;
+    }
+    .transport{
+      margin-top: 3rem;
+    }
+    .hed{
+      margin: 0;
+    }
+    .frd .track_ve img{
+        margin-left: 1rem;
+        margin-top: 2rem;
+        width: 85%;
+        border-radius: 5px;
+    }
+    .frd1 .track_ve img{
+        margin-left: 5rem;
+        width: 85%;
+        margin-top: 4rem;
+        border-radius: 5px;
+    }
+    .satisfieds img{
+        width: 60px;
+    }
+    #client{
+        margin-top: 3rem;
+    }
+    #carousel #mike{
+       width: 200px;
+        margin-left: 36rem;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 1750px){
+    
+    .transport{
+        background-color: #f7f3f371;
+    }
+      
+    .satisfied{
+        display: flex;
+        }
+    .satis_pic{
+        width: 40%;
+    }
+    .satis_pic img{
+        margin-left: 0;
+        padding-left: 0;
+        width: 90%;
+        height: 600px;
+        box-shadow: 75px 45px 5px -45px #355f6988;
+    }
+    .experiance{
+      
+        width: 250px;
+        height: 80px;
+        background-color:#3b6d7471 ;
+       
+      
+    }
+    .exp h1{
+        font-size: 28px;
+        font-weight: 700;
+        color: white;
+        margin-left: 3rem;
+       margin-top: 1rem;
+       line-height: 15px;
+    }
+    .exp h1 span{
+        font-size: 12px;
+       
+    }
+    .welcome{
+      width: 60%;
+      
+    }
+    .welcome h1{
+        font-size: 34px;
+        text-align: center;
+    }
+    .welcome p{
+       width: 100%;
+       margin-top: 2rem;
+       font-size: 24px;
+       font-weight: 300;
+       text-align: start;
+      
+    }
+    #wel_col ul li{
+        list-style: none;
+        line-height:50px ;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    #wel_col ul li i{
+        color: #9E6726;
+    }
+    .spcific{
+        margin-top: 2rem;
+        margin-left: -3rem;
+    }
+    .transport{
+      margin-top: 3rem;
+    }
+    .frd .track_ve img{
+        margin-left: 1rem;
+        margin-top: 4rem;
+        width: 85%;
+        border-radius: 5px;
+    }
+    .frd1 .track_ve img{
+        margin-left: 5rem;
+        width: 85%;
+        margin-top: 4rem;
+        border-radius: 5px;
+    }
+    .satisfieds img{
+        width: 100px;
+    }
+    #client{
+        margin-top: 3rem;
+    }
+    #carousel #mike{
+      
+        margin-left: 42rem;
+    }
+}
+   
+  </style>
+</head>
+
+<body class="about-page">
+
+  
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="#" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Logis</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+           <li class="dropdown"><a href=""><span>Servics</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="packing.html">Packing</a></li>
+              <li><a href="shifting.html">Shifting</a></li>
+              <li><a href="transport.html">Transport</a></li>
+              <li><a href="where.html">Warehouse</a></li>
+            </ul>
+          </li>
+          <li><a href="branches.html">Branches</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
+      <div class="container position-relative">
+        <h1>Packing</h1>
+        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Packing</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- satisfiedclient -->
+<div class="satisfied">
+  <div class="satis_pic">
+    <img src="assets/img/client.jpg" alt="">
+    <div class="experiance">
+      <div class="video_icon">
+        <i class='fas fa-caret-right' style='font-size:40px' class="icon"></i>
+      </div>
+      <div class="exp">
+        <h1>2,820 + <br><span>stisfied clients</span></h1>
+      </div>
+    </div>
+  </div>
+
+<div class="welcome">
+<h6>WELCOME TO WOODZONE</h6>
+<h1>We Have 25 Years of Experience in <br>Carpenter & Craftsman Service</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+
+<div class="row spcific">
+  <div class="col-sm-6" id="wel_col">
+    <ul>
+      <li><i class='far fa-caret-square-right' style='font-size:18px'></i>   Quality Control System
+</li>
+      <li><i class='far fa-caret-square-right' style='font-size:18px'></i>   100% Satisfaction Guarantee
+</li>
+      <li><i class='far fa-caret-square-right' style='font-size:18px'></i>    Commitment to Customers
+</li>
+      <li><i class='far fa-caret-square-right' style='font-size:18px'></i>   Highly Professional Carpentry
+</li>
+    </ul>
+  </div>
+  <div class="col-sm-6" id="wel_col">
+    <ul>
+      <li><i class='far fa-caret-square-right' style='font-size:18px'></i>    Commitment to Customers
+</li>
+      <li><i class='far fa-caret-square-right' style='font-size:18px'></i>   Quality Control System
+</li>
+      <li><i class='far fa-caret-square-right' style='font-size:18px'></i>   100% Satisfaction Guarantee
+</li>
+      <li><i class='far fa-caret-square-right' style='font-size:18px'></i>   Highly Professional Carpentry
+</li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+<!-- packing -->
+<section class="transport">
+  <!-- <div class="change_image"> -->
+  <div class="container">
+    <div class="row hed">
+     <div class="col-lg-6 sec1">
+        <div class="track_cont">
+          <h1 data-aos="fade-up" data-aos-duration="1200">packing</h1>
+          <p data-aos="zoom-in-right" data-aos-duration="1500">Loading and unloading connected with personal goods, corporate merchandise or industrial tools including heavy machinery is part of every relocation method. It was carried out with complete effectiveness. Relocation involves danger as goods could get scratched or damaged during the process. Our trained along skilled staff in addition to relocation managers will ensure an easy and hassle-free relocation available for you.</p>
+        </div>
+      </div>  
+      <div class="col-lg-6 frd1">
+        <div class="track_ve">
+           <img src="assets/img/pack1.jpg" width="270" height="200"data-aos="fade-up" data-aos-duration="800">    
+        </div>
+      </div>   
+   </div>
+<!-- loading -->
+   <div class="row hed">
+      <div class="col-lg-6 frd">
+        <div class="track_ve">
+           <img src="assets/img/load1.jpg" width="270" height="200"data-aos="fade-up" data-aos-duration="900">    
+        </div>
+      </div>
+      <div class="col-lg-6 sec">
+        <div class="track_cont">
+          <h1 data-aos="fade-up" data-aos-duration="1200">Loading & Unloading</h1>
+          <p data-aos="zoom-in-right" data-aos-duration="1500">Loading and unloading connected with personal goods, corporate merchandise or industrial tools including heavy machinery is part of every relocation method. It was carried out with complete effectiveness. Relocation involves danger as goods could get scratched or damaged during the process. Our trained along skilled staff in addition to relocation managers will ensure an easy and hassle-free relocation available for you.</p>
+        </div>
+      </div>   
+   </div>
+ </div>
+ <!-- </div> -->
+</section>
+
+
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Logis</span>
+          </a>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Why Choose Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Packing</a></li>
+            <li><a href="#">Shifting</a></li>
+            <li><a href="#">Transport</a></li>
+            <li><a href="#">Werehouse</a></li>
+            <li><a href="#">Client Service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>A108 Adam Street</p>
+          <p>New York, NY 535022</p>
+          <p>United States</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+          <p><strong>Email:</strong> <span>info@example.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Logis</strong> <span>All Rights Reserved</span></p>
+      </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
