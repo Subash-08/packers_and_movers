@@ -64,22 +64,25 @@ filter: brightness(0.6);
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="#" class="logo d-flex align-items-center me-auto">
-          <h1 class="sitename">Logis</h1>
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  
+      <!-- Logo on the left -->
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Logis</h1>
       </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home<br></a></li>
+  
+      <!-- Centered Navigation -->
+      <nav id="navmenu" class="navmenu mx-auto">
+        <ul class="d-flex align-items-center">
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
-           <li class="dropdown"><a href=""><span>Servics</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown">
+            <a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="packing.html">Packing</a></li>
               <li><a href="shifting.html">Shifting</a></li>
               <li><a href="transport.html">Transport</a></li>
-              <li><a href="where.html">Warehouse</a></li>
+              <li><a href="warehouse.html">Warehouse</a></li>
             </ul>
           </li>
           <li><a href="branches.html">Branches</a></li>
@@ -87,8 +90,15 @@ filter: brightness(0.6);
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+  
+      <!-- Button on the right -->
+      <div class="right-button">
+        <a href="get-quote.html" class="btn btn-primary">Get a Quote</a>
+      </div>
+      
     </div>
   </header>
+  
 
     <main class="main">
   
