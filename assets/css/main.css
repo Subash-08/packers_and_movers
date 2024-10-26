@@ -456,12 +456,11 @@ section,
   background: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
   padding: 80px 0;
   position: relative;
 }
