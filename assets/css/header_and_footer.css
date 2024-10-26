@@ -631,3 +631,45 @@ a:hover {
       font-size: 38px;
     }
   }
+
+
+
+  .whatsapp-link {
+    position: fixed;
+    bottom: 20px; /* Adjust for vertical position */
+    right: 20px;  /* Adjust for horizontal position */
+    z-index: 1000; /* Ensure it stays on top */
+  }
+  
+  .whatsapp-link img {
+    width: 50px;  /* Adjust the size as needed */
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp-link img:hover {
+    transform: scale(1.1); /* Slightly enlarges on hover */
+  }
+  
+  
+  .call-link {
+    position: fixed;
+    bottom: 80px;  /* Matches WhatsApp icon's vertical position */
+    right: 20px;   /* Adjust horizontal distance from WhatsApp icon */
+    z-index: 1000;
+  }
+  
+  .call-link img {
+    width: 50px;  /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .call-link img:hover {
+    transform: scale(1.1); /* Enlarges slightly on hover */
+  }
+  
