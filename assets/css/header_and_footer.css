@@ -64,7 +64,11 @@ a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
-
+.company_logo img{
+  width: 80px;
+  z-index: 10000;
+ 
+}
 
 /*--------------------------------------------------------------
 # Global Header
@@ -83,12 +87,7 @@ a:hover {
   line-height: 1;
 }
 
-.header .logo h1 {
-  font-size: 30px;
-  margin: 0;
-  font-weight: 700;
-  color: var(--heading-color);
-}
+
 
 @media (max-width: 1200px) {
   .header .logo {
