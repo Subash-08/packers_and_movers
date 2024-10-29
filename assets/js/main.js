@@ -72,9 +72,6 @@ accordionItems.forEach(item => {
     });
   }
 
-  /**
-   * Scroll top button
-   */
 
 
   /**
