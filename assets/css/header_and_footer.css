@@ -45,6 +45,16 @@
 }
 
 
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgba(202, 197, 197, 0.6);
+}
+::-webkit-scrollbar-thumb{
+  background-color: #19335c;
+  border-radius: 3px;
+}
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
@@ -64,12 +74,21 @@ a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
-.company_logo img{
-  width: 80px;
-  z-index: 10000;
- 
-}
 
+.logo_div{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 20px;
+}
+.nav_div{
+  margin: 5px 20px;
+  width: 70% !important;
+}
+.company_logo{
+  width: 130px;
+}
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -78,7 +97,6 @@ a:hover {
   --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -101,7 +119,7 @@ a:hover {
 }
 
 .scrolled .header {
-  padding: 10px 0;
+  padding: 5px 0;
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
@@ -671,4 +689,3 @@ a:hover {
   .call-link img:hover {
     transform: scale(1.1); /* Enlarges slightly on hover */
   }
-  
