@@ -81,13 +81,15 @@ a:hover {
   justify-content: center;
   align-content: center;
   margin: 0 20px;
+  height: 85px;
 }
 .nav_div{
   margin: 5px 20px;
   width: 70% !important;
 }
 .company_logo{
-  width: 130px;
+  width: 150px;
+  height: 85px;
 }
 /*--------------------------------------------------------------
 # Global Header
