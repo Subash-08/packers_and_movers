@@ -11,7 +11,9 @@ a{
   text-decoration: none !important;
 }
         
- 
+ body{
+  background-color: #f2f2f2 !important;
+ }
 /* cudivision1 */
 
 .cudbg{

@@ -6,7 +6,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --background-color: #f2f2f2; /* Background color for the entire website, including individual sections */
   --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #001973; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #0d42ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -44,7 +44,17 @@
   scroll-behavior: smooth;
 }
 
-
+.header {
+  --background-color: rgba(255, 255, 255, 0.8);
+  --heading-color: #ffffff;
+  color: var(--default-color);
+  background-color: var(--background-color);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.5s;
+  z-index: 997;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
 ::-webkit-scrollbar{
   width: 10px;
 }
@@ -128,14 +138,14 @@ a:hover {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(14, 29, 52, 0.9);
+  --background-color: rgba(14, 29, 52, 0.8);
 }
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Navmenu - Desktop */
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .navmenu {
     padding: 0;
   }
@@ -242,7 +252,7 @@ a:hover {
 }
 
 /* Navmenu - Mobile */
-@media (max-width: 1199px) {
+@media (max-width: 900px) {
   .mobile-nav-toggle {
     color: var(--nav-color);
     font-size: 28px;
