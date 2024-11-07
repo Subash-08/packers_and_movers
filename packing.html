@@ -19,9 +19,12 @@
 
   <!-- internal css -->
  <style>
- 
+ .order-md-1 img{
+  height: 300px;
+ }
 .transport{
   margin-top: 0;
+  padding: 10px;
 }
 .hed{
    margin-bottom: 4rem;
@@ -114,10 +117,42 @@ margin-top: 2rem;
     }
  
 }
-
+.service-section {
+      text-align: center;
+      padding: 50px 0;
+      background-color: #f2f2f2;
+    }
+    .service-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .service-title::before {
+      content: "OUR";
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 48px;
+      color: rgba(0, 0, 0, 0.05);
+    }
+    .service-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .service-content {
+      max-width: 600px;
+      text-align: left;
+      padding: 20px 0;
+      margin: auto;
+      color: #666;
+    }
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .transport{
-        background-color: #ffffff;
+        background-color: #f2f2f2;
     }
    
     .frd .track_ve img{
@@ -173,7 +208,7 @@ margin-top: 2rem;
 @media screen and (min-width: 1366px) and (max-width: 1439px){
 
     .transport{
-        background-color: #ffffffb4;
+        background-color: #f2f2f2;
         margin-top: 3rem;
     }
     .hed{
@@ -201,7 +236,7 @@ margin-top: 2rem;
 @media screen and (min-width: 1440px) and (max-width: 1750px){
     
     .transport{
-        background-color: #ffffff71;
+        background-color: #f2f2f2;
           margin-top: 3rem;
     }
     .frd .track_ve img{
@@ -577,6 +612,8 @@ margin-top: 2rem;
 
     </section>
 
+
+
 <!-- packing -->
 <section class="transport">
   <!-- <div class="change_image"> -->
@@ -585,57 +622,53 @@ margin-top: 2rem;
       <span>Our Packing<br></span>
       <h2>Our Packing</h2>
     </div>
-    <div class="row hed">
-     <div class="col-lg-6 sec1">
-        <div class="track_cont">
-          <!-- <h1 data-aos="fade-up" data-aos-duration="1200">Packing</h1> -->
-          <p data-aos="zoom-in-right" data-aos-duration="1500">Our packing services ensure your belongings are safe during your move. We use high-quality materials and expert techniques tailored to your needs. Our team handles everything with care, making packing quick and efficient. Trust us to make your moving experience smooth and worry-free</p>
-        </div>
-      </div>  
-      <div class="col-lg-6 frd1">
-        <div class="track_ve">
-           <img src="assets/img/packing.jpeg" width="270" height="200"data-aos="fade-up" data-aos-duration="800">    
-        </div>
-      </div>   
-   </div>
+
+
+
+    <div class="row service-section">
+      <div class="col-md-6 order-md-2">
+         <p class="service-content">
+          Our loading and unloading services are designed to ensure your belongings are handled with the utmost care. Our skilled team efficiently loads your items onto the moving truck, securing them for a safe journey. Upon arrival, we carefully unload and place your belongings exactly where you want them in your new home. With our commitment to safety and efficiency, you can trust us for a seamless moving experience
+        </p>
+      </div>
+      <div class="col-md-6 order-md-1">
+        <img src="/assets/img/packing.jpeg" alt="Packing" class="service-image">
+      </div>
+    </div>
 
    <!-- loading -->
    <div class="container section-title" data-aos="fade-up">
     <span>Our loading<br></span>
     <h2>Our loading</h2>
   </div>
-   <div class="row hed">
-    <div class="col-lg-6 frd">
-      <div class="track_ve">
-         <img src="assets/img/loading.jpeg" width="270" height="200"data-aos="fade-up" data-aos-duration="900">    
-      </div>
+  <div class="row service-section">
+    <div class="col-md-6">
+      <h2 class="service-title">LOADING</h2>
+      <p class="service-content">
+        Our loading services are designed to ensure your belongings are handled with utmost care. Our skilled team loads your items onto the truck, securing them for a safe journey. Trust us for a smooth moving experience.
+      </p>
     </div>
-    <div class="col-lg-6 sec">
-      <div class="track_cont">
-        <!-- <h1 data-aos="fade-up" data-aos-duration="1200">loading</h1> -->
-        <p data-aos="zoom-in-right" data-aos-duration="1500">Our loading and unloading services are designed to ensure your belongings are handled with the utmost care. Our skilled team efficiently loads your items onto the moving truck, securing them for a safe journey. Upon arrival, we carefully unload and place your belongings exactly where you want them in your new home. With our commitment to safety and efficiency, you can trust us for a seamless moving experience</p>
-      </div>
-    </div>   
- </div>
+    <div class="col-md-6 order-md-1">
+      <img src="/assets/img/loading.jpeg" alt="Loading" class="service-image">
+    </div>
+  </div>
 
 <!-- Unloading -->
 <div class="container section-title" data-aos="fade-up">
   <span>Our Unloading<br></span>
   <h2>Our Unloading</h2>
 </div>
-   <div class="row hed">
-      <div class="col-lg-6 sec2">
-        <div class="track_cont">
-          <!-- <h1 data-aos="fade-up" data-aos-duration="1200">Unloading</h1> -->
-          <p data-aos="zoom-in-right" data-aos-duration="1500">Our loading and unloading services are designed to ensure your belongings are handled with the utmost care. Our skilled team efficiently loads your items onto the moving truck, securing them for a safe journey. Upon arrival, we carefully unload and place your belongings exactly where you want them in your new home. With our commitment to safety and efficiency, you can trust us for a seamless moving experience</p>
-        </div>
-      </div>  
-      <div class="col-lg-6 frd2">
-        <div class="track_ve">
-          <img src="assets/img/unloading.jpeg" width="270" height="200"data-aos="fade-up" data-aos-duration="900">    
-       </div>
-      </div> 
-   </div>
+<div class="row service-section">
+  <div class="col-md-6 order-md-2">
+    <p class="service-content">
+      Upon arrival, we carefully unload and place your belongings exactly where you want them in your new home. With our commitment to safety and efficiency, you can trust us for a seamless moving experience.
+    </p>
+  </div>
+  <div class="col-md-6 order-md-1">
+    <img src="/assets/img/unloading.jpeg" alt="Unloading" class="service-image">
+  </div>
+</div>
+</div>
  </div>
  </div>
 
@@ -666,7 +699,7 @@ margin-top: 2rem;
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="packing.html">Services</a></li>
             <li><a href="branches.html">Branches</a></li>
