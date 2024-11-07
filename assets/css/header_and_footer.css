@@ -128,7 +128,7 @@ a:hover {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(14, 29, 52, 0.8);
+  --background-color: rgba(14, 29, 52, 0.9);
 }
 
 /*--------------------------------------------------------------
