@@ -136,7 +136,7 @@
     height: 400px;
   }
   .about-2 .content {
-    background-color: var(--surface-color);
+    background-color: var(--background-color);
     padding-top: 50px;
     /* padding-bottom: 50px; */
     
