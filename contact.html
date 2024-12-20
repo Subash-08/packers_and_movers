@@ -401,13 +401,12 @@
         
         emailjs.sendForm('service_imoiluy', 'template_pj91n2q', this)
             .then(function() {
-                console.log('SUCCESS!');
-                alert('Your message has been sent successfully!');
-                document.getElementById('contactForm').reset();
+              window.location.href = '/thankyou.html'; 
             }, function(error) {
                 console.log('FAILED...', error);
                 alert('Failed to send the message. Please try again later.');
             });
+
     });
 </script>
 </body>
