@@ -63,6 +63,26 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
+/* Hide the mobile-nav-toggle icon between 900px and 1200px */
+@media (min-width: 900px) and (max-width: 1200px) {
+  .mobile-nav-toggle {
+    display: none !important;
+  }
+}
+
+/* Show the icon for smaller screens (below 900px) */
+@media (max-width: 899px) {
+  .mobile-nav-toggle {
+    display: block !important;
+  }
+}
+
+/* Show the icon for larger screens (above 1200px if necessary) */
+@media (min-width: 1201px) {
+  .mobile-nav-toggle {
+    display: none;
+  }
+}
 
 a {
   color: var(--accent-color);

@@ -383,3 +383,10 @@
 .stats{
   padding: 0 !important;
 }
+
+/* Show the icon for smaller screens (below 900px) */
+@media (max-width: 899px) {
+  .mobile-nav-toggle {
+    display: block !important;
+  }
+}
